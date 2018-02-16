@@ -1,0 +1,206 @@
+
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;*/
+
+
+html, body
+{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #424242;
+}
+
+section
+{
+  min-height: 100%;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+li
+{
+  list-style-type: none;
+}
+
+h1, a
+{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #494949;
+  text-transform: uppercase;
+}
+
+h3, h4
+{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #FE2E64;
+}
+
+
+li, #logo, a, footer div a, #searchbutton input:hover, #SeitenEnde table nav tr td a:hover, #Spieleliste a h1:hover
+{
+  transition: all 300ms;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -o-transition: all 300ms;
+
+}
+
+hr
+{
+  width: 320px;
+  opacity: 1;
+  color: #FFFFFF;
+  background: #FE2E64;
+}
+/* header---------------------------------------------------------------*/
+header
+{  width: 100%;  height: 90px;  position: fixed;  top: 0px;  left: 0px;  background: #FF8000;  box-shadow: 0 1px 3px rgba(0,0,1);  z-index: 1;}
+
+/*--------------Header-Logo-------------------*/
+#logo
+{  width: 75px;  float: left;  margin: 10px 0px 0px 50px;}
+
+#logo:hover
+{  opacity: 0.8;}
+
+#logo img
+{  width: 100%;}
+/*---------Header-Nav-----------------------------------------*/
+header nav
+{  float: right; margin: 2px 50px 0px 0px;}
+
+header nav ul li
+{  float: left;  margin-right: 25px;}
+
+header nav ul li:hover
+{  padding-top: 5px;}
+
+header nav ul li a
+{
+   font-size: 20px;
+   font-style: italic;
+}
+
+a:hover, #Spieleliste a h1:hover
+{  color: #0080FF;}
+
+/*----------Header-ende--------------------------------------*/
+/*-----Footer---------------------------------------------*/
+footer
+{
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  background: #FF8000;
+  box-shadow: 0 1px 3px rgba(0,0,1);
+  z-index: 1;
+}
+
+#Impressum
+{
+  width: 80px;
+  position: fixed;
+  margin: 30px 50px 30px 50px;
+  font-size: 20px;
+}
+
+/*----------Haupt-Logo---------------*/
+#Logo_haupt
+{
+    width: 400px;
+    display: block;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Logo_haupt img
+{
+  width: 100%;
+}
+/*-----------Suchleiste-----------*/
+#searchbar
+{
+  left: 50%;
+  margin-left: -150px;
+  position: fixed;
+  margin-top: 25px;
+}
+#searchbar input
+{
+  width: 300px;
+  height: 30px;
+}
+
+#searchbutton
+{
+  left:50%;
+  margin-left: 153px;
+  position: fixed;
+  margin-top: 26px;
+}
+#searchbutton input
+{
+  width: 38px;
+  height: 35px;
+}
+#searchbutton input:hover
+{
+  margin-top: -2px;
+  width: 50px;
+  height: 40px;
+}
+#searchbutton input:active
+{
+  background-color: #BDBDBD;
+}
+
+#SeitenEnde
+{
+  padding-left: 50%;
+  margin-left: -150px; // -(width/2)
+  width: 300px;
+}
+
+#SeitenEnde td
+{
+  width: 100px;
+}
+
+/*-----------Impressum--------*/
+#Impressumstext
+{
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#Impressumstext hr
+{
+  width: 175px;
+  opacity: 0.8;
+}
+#Impressumstext h3
+{
+  font-size: 18px;
+}
+
+/*----------Spieleliste----*/
+#Spieleliste
+{
+  text-align: center;
+  margin-top: 250px;
+}
+#Spieleliste a h1
+{
+  color: #FE2E64;
+}
